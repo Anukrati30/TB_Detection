@@ -53,7 +53,7 @@ def main():
         st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
 
         # Load the model
-        model_path = '/Users/anukratisharma/Desktop/major2/tb.pth' # Update with your model path
+        model_path = 'tb.pth' # Update with your model path
         classes = ['Normal', 'TB']
         model = load_model(model_path, len(classes))
 
